@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&display=swap');@font-face{
+    src: url('../fonts/NeutralFace.otf');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section_header .header{
+    display: flex;
+    justify-content: center;
+}
+.section_header .header_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1366px;
+    margin-top: 20px;
+}
+.section_header .header_menu .icons img.comun{
+    width: 20px;
+    margin-left: 20px;
+}
+.section_header .header_menu .icons img.comun1{
+    width: 20px;
+    margin-left: 20px;
+}
+.section_header .header_menu .lang{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+justify-content: center;
+}
+.section_header .header_menu .lang img.img1{
+    margin-right: 20px;
+}
+.section_header .header_menu .lang p.ru{
+    margin-right: 20px;
+}
+.section_header .header_menu .lang p{
+    width: 100%;
+    color: #000000;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 30px;
+    font-family: 'NeutralFace';
+}
+.section_header  .line{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin-top: 20px;
+}
+.section_header  .contacts{
+    width: 800px;
+   
+  
+}
+.section_header .con{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.section_header  .contacts .cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.section_header  .mono{
+    width: 1150px;
+}
+.section_header .monocrome{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
+.section_header  .mono .mon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.section_header  .mono .mon .monotext1{
+    margin-right: 40px;
+    margin-top: 50px;
+    position: relative;
+}
+.section_header  .mono .mon .monotext1 h2{
+    width: 100%;
+    color: #000000;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 138px;
+    line-height: 30px;
+    font-family: 'NeutralFace';
+    
+}
+.section_header  .mono .mon .monotext1 img.img2{
+    position: absolute;
+    top: 110px;
+}
+.section_header  .mono .mon .monotext2{
+margin-top: 60px;
+}
+.section_header  .mono .mon .monotext2 h2{
+    width: 100%;
+    color: #000000;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Manropa';
+   
+    
+}
+.section_header  .mono .mon .monotext2 img.img3{
+   margin-top: 40px;
+   
+}
